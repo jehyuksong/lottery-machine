@@ -1,0 +1,81 @@
+body {
+  text-align: center;
+  background-color: #fff;
+  font-family: "Gugi", cursive;
+}
+
+.container {
+  background-color: #312e37;
+  width: 50%;
+  height: 800px;
+  margin: 20px auto;
+  padding: 30px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 40px;
+}
+
+.number {
+  padding: 10px;
+  background-color: green;
+  width: 70px;
+  position: relative;
+  height: 70px;
+  border-radius: 100%;
+  margin: 20px auto;
+  color: #fff;
+  font-size: 2rem;
+  line-height: 70px;
+}
+
+.number1 {
+  background-color: rgb(255, 0, 0);
+}
+
+.number2 {
+  background-color: rgb(73, 134, 67);
+}
+
+.number3 {
+  background-color: rgb(16, 75, 90);
+}
+
+.number4 {
+  background-color: rgb(143, 32, 124);
+}
+
+.number5 {
+  background-color: rgb(128, 129, 36);
+}
+
+.number6 {
+  background-color: rgb(0, 0, 0);
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  width: 130px;
+  font-size: 15px;
+  padding: 0;
+  height: 50px;
+  color: #fff;
+  font-family: "Gugi", cursive;
+}
+
+.turn {
+  background-color: green;
+}
+
+.all {
+  background-color: red;
+}
+
+.reset {
+  background-color: orange;
+}
